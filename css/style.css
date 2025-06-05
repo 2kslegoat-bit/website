@@ -1,0 +1,9 @@
+h1{
+    font-family: 'Calibri', sans-serif;     /* Ecriture */
+    color : white ;         /* Couleur */
+    text-shadow: 2px 2px 13px red
+}
+
+html    {
+    background-color: #a9a9a9;
+}
