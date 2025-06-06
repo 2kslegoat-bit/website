@@ -1,10 +1,37 @@
-h1{
-    font-family: 'Calibri', sans-serif;     /* Ecriture */
-    color : white ;         /* Couleur */
-    text-shadow: 2px 2px 13px red
-    text-align: center;
+/* Marges*/
+html, body { 
+    margin: 0;
+    padding: 0;
 }
 
-html    {
-    background-color: #a9a9a9;
+
+
+/* Titre Passion Guitare*/
+h1 {
+    font-family: 'Calibri', sans-serif;     /* Police  */
+    color: white;                          /* Couleur */
+    text-shadow: 2px 2px 13px red;         /* Ombre */
+    text-align: center;                    /* Centrage */
+}
+
+/* Couleur de fond*/
+html {
+    background-color: #a9a9a9;  /* Gris clair */
+}
+
+/* h2 et h3 */
+h2, h3 {
+    font-family: 'Sonsie One', cursive;  /* Police*/
+    color: #2a2a2a;                     /* Couleur */
+}
+
+/* Taille et Centrage h2 */
+h2 {
+    font-size: 3rem;         /* Taille de police */
+    text-align: center;      /* Centrage */
+}
+
+/* Taille h3 */
+h3 {
+    font-size: 2.2rem;      /* Taille de police */
 }
