@@ -2,6 +2,7 @@ h1{
     font-family: 'Calibri', sans-serif;     /* Ecriture */
     color : white ;         /* Couleur */
     text-shadow: 2px 2px 13px red
+    text-align: center;
 }
 
 html    {
