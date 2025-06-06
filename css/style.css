@@ -1,37 +1,69 @@
-/* Marges*/
+/* Reset et base */
 html, body { 
     margin: 0;
     padding: 0;
 }
 
-
-
-/* Titre Passion Guitare*/
-h1 {
-    font-family: 'Calibri', sans-serif;     /* Police  */
-    color: white;                          /* Couleur */
-    text-shadow: 2px 2px 13px red;         /* Ombre */
-    text-align: center;                    /* Centrage */
-}
-
-/* Couleur de fond*/
+/* Fond de page */
 html {
-    background-color: #a9a9a9;  /* Gris clair */
+    background-color: #a9a9a9;
 }
 
-/* h2 et h3 */
+/* Structure principale */
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #a9a9a9;
+}
+
+/* En-tête */
+h1 {
+    font-family: 'Calibri', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 13px red;
+    text-align: center;
+}
+
+/* Conteneur principal */
+main {
+    display: flex;
+}
+
+/* Contenu principal */
+article {
+    flex: 4;
+    background-color: white;
+}
+
+/* Barre latérale */
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #ff00d4;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 10px;
+    background-color: white;
+}
+
+/* Navigation */
+nav {
+    background-color: #ff00d4;
+}
+
+/* Titres */
 h2, h3 {
-    font-family: 'Sonsie One', cursive;  /* Police*/
-    color: #2a2a2a;                     /* Couleur */
+    font-family: 'Sonsie One', cursive;
+    color: #2a2a2a;
 }
 
-/* Taille et Centrage h2 */
 h2 {
-    font-size: 3rem;         /* Taille de police */
-    text-align: center;      /* Centrage */
+    font-size: 3rem;
+    text-align: center;
 }
 
-/* Taille h3 */
 h3 {
-    font-size: 2.2rem;      /* Taille de police */
+    font-size: 2.2rem;
 }
